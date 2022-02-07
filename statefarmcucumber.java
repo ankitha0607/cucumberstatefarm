@@ -76,6 +76,10 @@ public class statefarmcucumber {
 			  writer.write(str + System.lineSeparator());
 			}
 		writer.close();
+		if (Arrays.equals(originalL,targetList)) // Same as arr1.equals(arr2)
+            System.out.println("Assertion passed");
+        else
+            System.out.println("Assertion failed");
 		
 	}
 
